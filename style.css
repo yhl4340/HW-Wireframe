@@ -8,12 +8,12 @@ background: #777;
 width: 960px;
 font-size: 18px;
 }
-header, nav, .section, aside, .footer {
+.header, .nav, .section, aside, .footer {
     background: #ebebeb;
 
 
 }
-header,nav, .footer{
+.header,.nav, .footer{
    
     padding: 10px 10px;
     margin: 10px;
@@ -22,8 +22,8 @@ header,nav, .footer{
     width: 495px;
     height: 300px;
     float: left;
-   background-color: red;
-    padding: 10px;
+   background-color:pink;
+    padding: 20px;
     margin: 5px;
     clear:both;
 }
@@ -36,11 +36,13 @@ article{
 }
 aside{
     width: 400px;
-    height: 300px;
+    height: 340px;
     float: right;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     background-color: blue;
+    clear:top;
+    overflow:auto;
 }
 hgroup, p{
 
